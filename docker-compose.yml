@@ -26,15 +26,8 @@ services:
       DB_PASSWD: admin
       PS_FOLDER_ADMIN: administation
       PS_FOLDER_INSTALL: installation
-      PS_INSTALL_AUTO: 1
-      PS_DOMAIN: localhost:8080
       PS_DEV_MODE: 1
-      PS_LANGUAGE: en
-      PS_COUNTRY: TH
-      PS_ENABLE_SSL: 0
-      ADMIN_MAIL: admin@memora.com
-      ADMIN_PASSWD: Memorashop
-      PS_INSTALL_DB: 1
+
     networks:
       - prestashop_network
     volumes:
